@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Sistema Integral de Multas</string>
+    <string name="title_section1">Documentos</string>
+    <string name="title_section2">Consultas</string>
+    <string name="title_section3">Reglamentos</string>
+    <string name="action_settings">Cerrar sesion</string>
+
+
+    <string-array name="StringArray_TipoDocumento">
+        <item>INFRACCION</item>
+        <item>APERSIBIMIENTO</item>
+        <item>ORDEN DE VISITA</item>
+    </string-array>
+    <string name="title_activity_scrolling">Levantamieto infraccion</string>
+
+    <string-array name="Spinner_manifiesta_ser">
+
+        <item>Director Responsable</item>
+        <item>Empleado</item>
+        <item>Encargado</item>
+        <item>Familiar</item>
+        <item>Propietario</item>
+        <item>Representatne del Propietario</item>
+        <item>Representatne legal</item>
+        <item>Trabajador</item>
+        <item>Velador</item>
+        <item>Vigilante</item>
+
+    </string-array>
+
+
+    <string-array name="Spinner_se_identifica">
+        <item>Cartilla militar</item>
+        <item>(IFE)Credencial para votar expedida por el Instituto Federal Electoral</item>
+        <item>(INE)Credencial para votar expedida por el Instituto Nacional Electoral</item>
+        <item>Licencia de conductor</item>
+        <item>Pasaporte</item>
+        <item>Media filiacion</item>
+    </string-array>
+
+    <string-array name="Spinner_fracionamiento">
+        <item>Cañadas</item>
+        <item>Puerta de hierro</item>
+        <item>Valle Real</item>
+        <item>Jardin Real</item>
+        <item>Buganvillias</item>
+        <item>Palomar</item>
+    </string-array>
+
+    <string-array name="Spinner_testigo_asistencia">
+        <item>Inspector</item>
+        <item>Visitado</item>
+    </string-array>
+
+    <string-array name="Spinner_concpetos_infraccion">
+        <item>Falta de licencia</item>
+        <item>Multa1</item>
+        <item>Multa3</item>
+        <item>Multa4</item>
+        <item>Multa6</item>
+    </string-array>
+    <string name="title_activity_navigatin_drawer">NavigatinDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Direccion de Inspeccion a Obra Publica</string>
+    <string name="nav_header_subtitle">Jose lopez Gonzales</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string-array name="Spinner_selector_dependencias">
+        <item>Obras Publicas</item>
+        <item>Sanitaria</item>
+        <item>Ambiental</item>
+        <item>Comercio via publica</item>
+        <item>Reglamentos y espectaculos</item>
+    </string-array>
+
+    <string-array name="Spinner_selector_inspectores">
+        <item>Juan Perez Lopez</item>
+        <item>Jaimes Hunt</item>
+        <item>Sergio Perez</item>
+        <item>Carlos Sainz JR</item>
+        <item>Juan Pablo Montoya</item>
+        <item>Nikki Lauda</item>
+    </string-array>
+
+    <string name="title_activity_reporte_error">ReporteError</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="title_activity_scrolling_main">ActivityScrollingMain</string>
+
+
+
+
+    <string name="TipoDocumento">Seleccione su documento</string>
+    <string name="BotonNuevoDocumento">nuevo</string>
+    <string name="title_activity_infraccion">Levantamiento de infraccion</string>
+</resources>

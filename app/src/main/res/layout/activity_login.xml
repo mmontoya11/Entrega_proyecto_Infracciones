@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/logo_gdl_login"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_gdl"
+        />
+    <ImageView
+        android:id="@+id/logo_pgm_login"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:src="@drawable/pgm_logo"
+        android:layout_alignParentRight="true"
+        />
+
+    <LinearLayout
+        android:id="@+id/login_linear"
+        android:layout_below="@+id/logo_gdl_login"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:paddingTop="150dp">
+
+
+        <TextView
+            android:id="@+id/login_text_dependencia"
+            android:text="Dependencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="15dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinner_login_dependencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_text_dependencia"
+            android:entries="@array/Spinner_selector_dependencias" />
+
+        <TextView
+            android:paddingBottom="15dp"
+            android:id="@+id/login_text_inspector"
+            android:text="Inspector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner_login_dependencia"/>
+
+        <Spinner
+            android:id="@+id/spinner_login_inspector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Spinner_selector_inspectores"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textinputlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true">
+
+                <EditText
+                    android:id="@+id/login_contraseña"
+                    android:layout_width="303dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/login_ingresar_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/textinputlay"
+                android:text="Ingresar" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

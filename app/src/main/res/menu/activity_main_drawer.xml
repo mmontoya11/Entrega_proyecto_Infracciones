@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_reglamentos"
+            android:icon="@drawable/ic_description_black_48dp"
+            android:title="Consultar reglamento" />
+        <item
+            android:id="@+id/nav_infraccion"
+            android:icon="@drawable/ic_find_in_page_black_48dp"
+            android:title="Buscar infraccion" />
+        <item
+            android:id="@+id/nav_descargas"
+            android:icon="@drawable/baseline_cloud_upload_black_18"
+            android:title="Descargar" />
+        <item
+            android:id="@+id/nav_ajustes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ajustes" />
+
+    </group>
+
+    <item android:title="Reporte de Errores">
+        <menu>
+            <item
+                android:id="@+id/nav_compartir_error"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Enviar informe" />
+            <item
+                android:id="@+id/LogOut"
+                android:icon="@drawable/baseline_settings_power_black_48dp"
+                android:title="LogOut" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:scrollbarStyle="outsideOverlay"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TESTIGO DE ASISTENCIA"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:id="@+id/inf_datos_visita3"
+            android:text="TESTIGO 1:    "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Spinner
+            android:id="@+id/inf_spinner_manifiesta_ser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Spinner_testigo_asistencia"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/inf_edidt_nombre_visitado"
+                android:hint="Nombre del Testigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:id="@+id/inf_visita3"
+            android:text="Se identifica con:    "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Spinner
+            android:id="@+id/inf_spinner_se_identifica1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Spinner_se_identifica"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="phone"
+                android:id="@+id/inf_edidt_Num_identificacion"
+                android:hint="Numero de la identificacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:id="@+id/inf_datossita3"
+            android:text="TESTIGO 2:    "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Spinner
+            android:id="@+id/inf_spinner_esta_ser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Spinner_testigo_asistencia"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/inombre_visitado"
+                android:hint="Nombre del Testigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:id="@+id/inf_vsita3"
+            android:text="Se identifica con:    "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Spinner
+            android:id="@+id/inf_spi_identifica1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Spinner_se_identifica"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="phone"
+                android:id="@+id/inf_edificacion"
+                android:hint="Numero de la identificacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

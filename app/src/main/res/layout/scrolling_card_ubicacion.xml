@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:scrollbarStyle="outsideOverlay"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UBICACION"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:id="@+id/inf_datos_visita3"
+            android:text="Fraccionamiento:    "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Spinner
+            android:id="@+id/inf_spinner_manifiesta_ser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Spinner_fracionamiento"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/inf_edidt_nombre_visitado"
+                android:hint="Sector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="phone"
+                android:id="@+id/inf_edidt_Num_identificacion"
+                android:hint="Condominio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.design.widget.TextInputLayout>
+
+          <android.support.design.widget.TextInputLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <EditText
+
+                  android:id="@+id/calle"
+                  android:hint="Calle"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  />
+
+          </android.support.design.widget.TextInputLayout>
+
+
+          <android.support.design.widget.TextInputLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <EditText
+
+                  android:id="@+id/exterior"
+                  android:hint="Exterior"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  />
+
+          </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/interior"
+                android:hint="Interior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/entrecalles"
+                android:hint="Entre calles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

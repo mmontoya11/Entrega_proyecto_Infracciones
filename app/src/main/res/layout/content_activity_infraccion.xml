@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ActivityInfraccion"
+    tools:showIn="@layout/activity_infraccion">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="15dp"
+        android:background="@color/cardBackground">
+
+        <include
+            android:id="@+id/card1"
+            layout="@layout/scrolling_card_licencias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="9dp" />
+
+        <include
+            android:id="@+id/card2"
+            layout="@layout/scrolling_card_datos_visitado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/card1"
+            android:layout_marginTop="12dp"
+            android:paddingTop="15dp" />
+
+        <include
+            android:id="@+id/card3"
+            layout="@layout/scrolling_card_ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card2"
+            android:layout_marginTop="9dp"
+            android:paddingTop="15dp" />
+
+        <include
+            android:id="@+id/card4"
+            layout="@layout/scrolling_card_testigo_asistencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card3"
+            android:layout_marginTop="11dp"
+            android:paddingTop="15dp" />
+
+        <include
+            android:id="@+id/card5"
+            layout="@layout/scrolling_card_visita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card4"
+            android:layout_marginTop="11dp"
+            android:paddingTop="15dp" />
+
+        <include
+            android:id="@+id/card6"
+            layout="@layout/scrolling_card_fotos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card5"
+            android:layout_marginTop="14dp"
+            android:paddingTop="15dp"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/card7"
+            layout="@layout/scrolling_card_guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card6"
+            android:layout_marginTop="10dp"
+            android:paddingTop="15dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorDivider">#E8BABFC0</color>
+
+
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorPrimaryLight">#FFE0B2</color>
+    <color name="colorPrimaryLight2">#FAE0C3</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Background">#75FFFFFF</color>
+    <color name="colorTitleBackground">#B6B5B5</color>
+    <color name="cardBackground">#E0E0E0</color>
+</resources>
